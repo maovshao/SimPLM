@@ -1,0 +1,14 @@
+name: simplm-mf
+# 4*6 for 4 GPUS
+batch_size: 8
+
+dataset:
+  esm_model: ../model/esm/esm1b_t33_650M_UR50S.pt
+
+model:
+  esm_model: ../model/esm/esm1b_t33_650M_UR50S.pt
+  num_fine_tune_layers: 3
+
+train:
+  num_epochs: 10
+  task_weight: {'MLM':1, 'SIM':1}

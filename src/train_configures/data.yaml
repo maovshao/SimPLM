@@ -1,0 +1,17 @@
+model_path: ../model/simplm
+train:
+# # SimPLM-mlm
+#   mlm: ["../data/pretrain_data/mf/protein.fasta", "../data/pretrain_data/bp/protein.fasta", "../data/pretrain_data/cc/protein.fasta"]
+#   sim: []
+# SimPLM-mf
+  mlm: ["../data/pretrain_data/mf/protein.fasta"]
+  sim: ["../data/pretrain_data/mf/similarity/semantic_similarity.txt"]
+# # SimPLM-bp
+#   mlm: ["../data/pretrain_data/bp/protein.fasta"]
+#   sim: ["../data/pretrain_data/bp/similarity/semantic_similarity.txt"]
+# # SimPLM-cc
+#   mlm: ["../data/pretrain_data/cc/protein.fasta"]
+#   sim: ["../data/pretrain_data/cc/similarity/semantic_similarity.txt"]
+# # SimPLM-fold
+#   mlm: ["../data/pretrain_data/mf/protein.fasta", "../data/pretrain_data/bp/protein.fasta", "../data/pretrain_data/cc/protein.fasta"]
+#   sim: ["../data/pretrain_data/mf/similarity/structure_similarity.txt", "../data/pretrain_data/bp/similarity/structure_similarity.txt", "../data/pretrain_data/cc/similarity/structure_similarity.txt"]

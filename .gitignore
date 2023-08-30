@@ -1,0 +1,12 @@
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+
+src/.vscode
+src/NG3/
+
+data/
+model/
+result/go/
+to_remove/
+test.py
